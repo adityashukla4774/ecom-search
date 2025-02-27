@@ -34,6 +34,7 @@ RUN pip3 install https://download.pytorch.org/whl/cpu/torch-1.13.1%2Bcpu-cp38-cp
 
 RUN pip3 install torchvision
 
+RUN pip install --upgrade pip==24.0
 RUN pip install -r requirements.txt
 
 RUN pip install --upgrade huggingface_hub
