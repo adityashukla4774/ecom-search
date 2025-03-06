@@ -207,7 +207,7 @@ from urllib.parse import quote_plus as urlquote
 elastic_search_domain = os.environ.setdefault('ELASTIC_SEARCH_DOMAIN','localhost')
 elastic_search_port = int(os.environ.setdefault('ELASTIC_SEARCH_PORT','9200'))
 elastic_search_user = os.environ.setdefault('ELASTIC_SEARCH_USER_NAME','elastic')
-elastic_search_password = 'asdfgh' #os.environ.setdefault('ELASTIC_SEARCH_PASSWORD','asdf')
+elastic_search_password = 'asdf' #os.environ.setdefault('ELASTIC_SEARCH_PASSWORD','asdf')
 
 elk_base_url = 'elasticsearch://{user_name}:{password}@{host_ip}:{host_port}'
 ELASTIC_SEARCH_URL = elk_base_url.format(user_name=elastic_search_user,

@@ -6,7 +6,7 @@ services:
     container_name: elasticsearch1
     environment:
       - discovery.type=single-node
-      - ELASTIC_PASSWORD=asdfgh
+      - ELASTIC_PASSWORD=asdf
       - xpack.security.enabled=true
       - xpack.security.transport.ssl.enabled=false
       - ingest.geoip.downloader.enabled=false
