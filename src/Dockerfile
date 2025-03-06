@@ -6,7 +6,7 @@ ENV discovery.type=single-node
 ENV ES_JAVA_OPTS="-Xms1g -Xmx1g"
  
 # Enable security features and set password for 'elastic' user
-ENV ELASTIC_PASSWORD=asdfgh
+ENV ELASTIC_PASSWORD=asdf
  
 # Expose the default Elasticsearch port
 EXPOSE 9200 9300
